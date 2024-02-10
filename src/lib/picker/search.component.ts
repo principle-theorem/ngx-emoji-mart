@@ -13,7 +13,8 @@ import {
 import { FormsModule } from '@angular/forms';
 
 import { EmojiSearch } from './emoji-search.service';
-import { Subject, fromEvent, takeUntil } from 'rxjs';
+import { Subject, fromEvent } from 'rxjs';
+import { takeUntil } from 'rxjs/operators';
 
 let id = 0;
 

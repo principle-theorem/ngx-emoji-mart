@@ -12,7 +12,8 @@ import {
   inject,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { EMPTY, Subject, fromEvent, switchMap, takeUntil } from 'rxjs';
+import { EMPTY, Subject, fromEvent } from 'rxjs';
+import { switchMap, takeUntil } from 'rxjs/operators';
 
 import { EmojiData } from './data/data.interfaces';
 import { DEFAULT_BACKGROUNDFN, EmojiService } from './emoji.service';
